@@ -13,7 +13,7 @@ class PqrController extends Controller
 {
     public function __construct()
     {
-        $this->authorizeResource(PqPqr::class, 'pqr');
+        //$this->authorizeResource(PqPqr::class, 'pqr');
     }
 
     /**

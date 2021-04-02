@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'pqrs-filings', 'menuParent' => 'pqrs', 'titlePage' => __('Solicitudes PQRS')])
+@extends('layouts.app', ['activePage' => 'pqrs-filings', 'menuParent' => 'pqrs', 'titlePage' => __('Buzo de ideas')])
 
 @section('content')
     <div class="content">
@@ -10,12 +10,12 @@
                             <div class="card-icon">
                                 <i class="material-icons">support_agent</i>
                             </div>
-                            <h4 class="card-title">{{ __('PQRS') }}</h4>
+                            <h4 class="card-title">{{ __('Buzo de ideas') }}</h4>
                         </div>
                         <div class="card-body">
                                 <div class="row">
                                     <div class="col-12 text-right">
-                                        <a href="{{ route('pqrs.create') }}" class="btn btn-sm btn-rose">{{ __('Radicar PQRS') }}</a>
+                                        <a href="{{ route('pqrs.create') }}" class="btn btn-sm btn-rose">{{ __('Radicar idea') }}</a>
                                     </div>
                                 </div>
                             <div class="table-responsive">
@@ -127,7 +127,7 @@
                 responsive: true,
                 language: {
                     search: "_INPUT_",
-                    searchPlaceholder: "Buscar PQRS",
+                    searchPlaceholder: "Buscar",
                     paginate: {
                         first:      "Primero",
                         last:       "Último",

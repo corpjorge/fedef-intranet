@@ -59,6 +59,13 @@
             </a>
         </li>
 
+        <li class="nav-item{{ $activePage == 'pqrs-filings' ? ' active' : '' }}">
+            <a class="nav-link" href="{{ route('pqrs.index') }}">
+                <i class="material-icons">support_agent</i>
+                <p>{{ __('Buzo de ideas') }}</p>
+            </a>
+        </li>
+
 
         {{--Menu Modulos
         @foreach($menuModules as $module)
