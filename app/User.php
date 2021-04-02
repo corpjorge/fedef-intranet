@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Model\Config\Area;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -28,7 +29,7 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name', 'email', 'password', 'picture' , 'document_type_id',
-        'birth_date', 'phone', 'gender_id', 'address', 'area', 'city_id',
+        'birth_date', 'phone', 'gender_id', 'address', 'city_id',
     ];
 
     /**
@@ -98,6 +99,16 @@ class User extends Authenticatable
     public function modules()
     {
         return $this->belongsToMany(Module::class, 'user_module');
+    }
+
+    /**
+     * Get the areas of the user
+     *
+     * @return BelongsToMany
+     */
+    public function areas()
+    {
+        return $this->belongsToMany(Area::class, 'user_area');
     }
 
     /**

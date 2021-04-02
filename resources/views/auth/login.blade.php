@@ -24,7 +24,7 @@
         <form class="form" method="POST" action="{{ route('login') }}">
           @csrf
           <div class="card card-login card-hidden">
-            <div class="card-header card-header-rose text-center">
+            <div class="card-header card-header-success text-center">
               <h4 class="card-title">{{ __('Iniciar sesión') }}</h4>
               <div class="social-line">
                   @foreach($AuthCustoms as $AuthCustom)
@@ -67,7 +67,7 @@
                 </div>
             </div>
             <div class="card-footer justify-content-center">
-              <button type="submit" class="btn btn-rose btn-link btn-lg">{{ __('Ingresar') }}</button>
+              <button type="submit" class="btn btn-success btn-link btn-lg">{{ __('Ingresar') }}</button>
             </div>
           </div>
         </form>

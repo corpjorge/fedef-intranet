@@ -29,7 +29,7 @@
       <script>
         document.write(new Date().getFullYear())
       </script>, {{ __('hecho con') }} <i class="material-icons">favorite</i> por
-      <a href="https://www.coopfon.com" target="_blank" rel="noopener noreferrer">CoopFon</a> Las cooperativas y fondos
+      <a href="https://fyclsingenieria.com/" target="_blank" rel="noopener noreferrer">FYCLS Ingenieria</a> Las cooperativas y fondos
     </div>
   </div>
 </footer>

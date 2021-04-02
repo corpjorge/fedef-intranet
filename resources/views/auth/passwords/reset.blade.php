@@ -15,7 +15,7 @@
 
         <input type="hidden" name="token" value="{{ $token }}">
         <div class="card card-login card-hidden mb-3">
-          <div class="card-header card-header-rose text-center">
+          <div class="card-header card-header-success text-center">
             <h4 class="card-title"><strong>{{ __('Restablecer contraseña') }}</strong></h4>
           </div>
           <div class="card-body ">

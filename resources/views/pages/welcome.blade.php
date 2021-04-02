@@ -33,7 +33,7 @@
             <div class="section text-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto">
-                        <h2 class="title">Eventos</h2>
+                        <h2 class="title">Comunicado interno</h2>
                         <h5 class="description">Participa en los eventos que tenemos para ti.</h5>
                     </div>
                 </div>

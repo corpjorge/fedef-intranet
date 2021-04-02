@@ -14,7 +14,7 @@
         @csrf
 
         <div class="card card-login card-hidden mb-3">
-          <div class="card-header card-header-rose text-center">
+          <div class="card-header card-header-success text-center">
             <h4 class="card-title"><strong>{{ __('Olvidó su contraseña') }}</strong></h4>
           </div>
           <div class="card-body">

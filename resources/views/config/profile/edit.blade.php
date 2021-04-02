@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-md-8">
         <div class="card">
-          <div class="card-header card-header-icon card-header-rose">
+          <div class="card-header card-header-icon card-header-success">
             <div class="card-icon">
               <i class="material-icons">perm_identity</i>
             </div>
@@ -67,7 +67,7 @@
         </div>
 
         <div class="card">
-          <div class="card-header card-header-icon card-header-rose">
+          <div class="card-header card-header-icon card-header-success">
             <div class="card-icon">
               <i class="material-icons">lock</i>
             </div>
@@ -135,7 +135,7 @@
         </div>
 
           <div class="card">
-              <div class="card-header card-header-icon card-header-rose">
+              <div class="card-header card-header-icon card-header-success">
                   <div class="card-icon">
                       <i class="material-icons">contacts</i>
                   </div>
@@ -163,16 +163,6 @@
                                   <input type="text"  name="birth_date" id="input-current-birth_date" placeholder="{{ __('Fecha nacimiento') }}" class="form-control{{ $errors->has('birth_date') ? ' is-invalid' : '' }} datepicker"
                                          value="{{ old('birth_date', auth()->user()->birth_date ? \Carbon\Carbon::parse(auth()->user()->birth_date)->format('d-m-Y') : '' )}}" required/>
                                   @include('alerts.feedback', ['field' => 'birth_date'])
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="row">
-                          <label class="col-sm-2 col-form-label" for="input-current-area">{{ __('Area/Zona') }}</label>
-                          <div class="col-sm-7">
-                              <div class="form-group{{ $errors->has('area') ? ' has-danger' : '' }}">
-                                  <input class="form-control{{ $errors->has('area') ? ' is-invalid' : '' }}"  type="text" name="area" id="input-current-area" placeholder="{{ __('Area') }}" value="{{ old('area', auth()->user()->area) }}"  />
-                                  @include('alerts.feedback', ['field' => 'area'])
                               </div>
                           </div>
                       </div>

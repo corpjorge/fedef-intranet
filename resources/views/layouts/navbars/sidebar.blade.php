@@ -1,4 +1,4 @@
-<div class="sidebar" data-color="{{ env('APP_COLOR') }}" data-background-color="{{ env('APP_COLOR_SECOND') }}" data-image="{{ asset('coopfon') }}/img/{{ env('APP_IMG') }}">
+<div class="sidebar" data-color="green" data-background-color="green" >
   <!--
     Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 
@@ -6,7 +6,7 @@
 -->
   <div class="logo">
     <a href="#" class="simple-text logo-mini">
-      {{ __('CF') }}
+
     </a>
     <a href="#" class="simple-text logo-normal">
         <img src="{{ asset('coopfon') }}/img/{{ env('APP_LOGO') }}" style="width: 108px;">
@@ -45,12 +45,20 @@
             </a>
         </li>
 
+        <li class="nav-item{{ $activePage == 'document' ? ' active' : '' }}">
+            <a class="nav-link" href="{{ route('document.index') }}">
+                <i class="material-icons">description</i>
+                <p>{{ __('Documentos') }}</p>
+            </a>
+        </li>
+
         <li class="nav-item{{ $activePage == 'profile' ? ' active' : '' }}">
             <a class="nav-link" href="{{ route('profile.edit') }}">
                 <i class="material-icons">account_box</i>
                 <p>{{ __('Perfil') }}</p>
             </a>
         </li>
+
 
         {{--Menu Modulos
         @foreach($menuModules as $module)

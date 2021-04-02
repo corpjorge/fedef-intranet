@@ -10,7 +10,7 @@
             @method('put')
 
             <div class="card ">
-              <div class="card-header card-header-rose card-header-icon">
+              <div class="card-header card-header-success card-header-icon">
                 <div class="card-icon">
                   <i class="material-icons">person</i>
                 </div>
@@ -116,7 +116,7 @@
                 @csrf
                 @method('put')
             <div class="card">
-                <div class="card-header card-header-icon card-header-rose">
+                <div class="card-header card-header-icon card-header-success">
                     <div class="card-icon">
                         <i class="material-icons">contacts</i>
                     </div>

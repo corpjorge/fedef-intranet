@@ -24,7 +24,7 @@
         <form class="form" method="POST" action="{{ route('login.document') }}">
           @csrf
           <div class="card card-login card-hidden">
-            <div class="card-header card-header-rose text-center">
+            <div class="card-header card-header-success text-center">
               <h4 class="card-title">{{ __('Iniciar sesión') }}</h4>
               <div class="social-line">
                   <a href="{{ url('login') }}" class="btn btn-just-icon btn-link btn-white" data-toggle="tooltip" data-placement="top" title="Ingresar con correo">

@@ -85,4 +85,7 @@ Route::group(['middleware' => 'auth'], function () {
     //Search
     Route::get('search/users/{users?}', 'Config\SearchController@users');
 
+    //Docuements
+    Route::resource('document', 'DocumentController', ['except' => ['show']]);
+
 });

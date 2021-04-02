@@ -40,7 +40,7 @@ class UserController extends Controller
      * @param City $cities
      * @param Member $members
      * @param Gender $genders
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\View\View
      */
     public function create(DocumentType $documentTypes, City $cities, Member $members, Gender $genders)
     {
@@ -85,7 +85,7 @@ class UserController extends Controller
      * @param City $cities
      * @param Member $members
      * @param Gender $genders
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\View\View
      */
     public function edit(User $user, DocumentType $documentTypes, City $cities, Member $members, Gender $genders)
     {

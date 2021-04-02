@@ -23,18 +23,18 @@ Una maquina con php y node instalada.
 ### FORGE
 
 ```
- $FORGE_PHP artisan migrate:fresh --seed --force
- $FORGE_PHP artisan storage:link
- $FORGE_PHP artisan clear-compiled
- $FORGE_PHP artisan optimize
- $FORGE_PHP artisan config:cache
- $FORGE_PHP artisan route:cache
- $FORGE_PHP artisan view:cache
- $FORGE_PHP artisan config:clear
- $FORGE_PHP artisan cache:clear
+ php artisan migrate:fresh --seed --force
+ php artisan storage:link
+ php artisan clear-compiled
+ php artisan optimize
+ php artisan config:cache
+ php artisan route:cache
+ php artisan view:cache
+ php artisan config:clear
+ php artisan cache:clear
  composer dump-autoload
- $FORGE_PHP artisan view:clear
- $FORGE_PHP artisan route:clear
+ php artisan view:clear
+ php artisan route:clear
  ```
 ## Versions
 

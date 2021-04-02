@@ -32,7 +32,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card card-chart">
-            <div class="card-header card-header-rose" data-header-animation="true">
+            <div class="card-header card-header-success" data-header-animation="true">
               <div class="ct-chart" id="websiteViewsChart"></div>
             </div>
             <div class="card-body">

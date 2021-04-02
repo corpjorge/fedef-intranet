@@ -22,7 +22,7 @@ Página del producto: https://www.coopfon.com/
   <link rel="icon" type="image/png" href="{{ asset('coopfon') }}/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    CoopFon
+    Fedef
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <meta name="keywords" content="coofon, boletacoop, Cooperativas, fondos, boletería, boletas, pqrs, superfluo, fycls ingeniería, inventario, eventos, fondo de empleados, asociados, asociadas, delegados, delegadas, votaciones">

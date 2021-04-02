@@ -35,7 +35,6 @@ class GlobalCreateUsersTable extends Migration
                 $table->foreignId('gender_id')->unsigned()->nullable();
                 $table->foreign('gender_id')->references('id')->on('genders');
                 $table->string('address')->nullable();
-                $table->string('area')->nullable();
                 $table->biginteger('city_id')->unsigned()->nullable();
                 $table->foreign('city_id')->references('code')->on('city');
                 $table->string('picture')->nullable();

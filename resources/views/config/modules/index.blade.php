@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-md-12">
             <div class="card">
-              <div class="card-header card-header-rose card-header-icon">
+              <div class="card-header card-header-success card-header-icon">
                 <div class="card-icon">
                   <i class="material-icons">view_module</i>
                 </div>
@@ -95,7 +95,7 @@
 
           <div class="col-md-12">
               <div class="card">
-                  <div class="card-header card-header-rose card-header-icon">
+                  <div class="card-header card-header-success card-header-icon">
                       <div class="card-icon">
                           <i class="material-icons">upgrade</i>
                       </div>

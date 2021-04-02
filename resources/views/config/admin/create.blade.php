@@ -10,7 +10,7 @@
                         @method('post')
 
                         <div class="card ">
-                            <div class="card-header card-header-rose card-header-icon">
+                            <div class="card-header card-header-success card-header-icon">
                                 <div class="card-icon">
                                     <i class="material-icons">supervisor_account</i>
                                 </div>
@@ -101,17 +101,17 @@
                                 <div class="row">
                                     <label class="col-sm-2 col-form-label label-checkbox">Módulos</label>
                                     <div class="col-sm-10 checkbox-radios">
-                                        @foreach($modules as $module)
+                                        @foreach($areas as $area)
                                         <div class="form-check form-check-inline">
                                             <label class="form-check-label">
-                                                <input class="form-check-input" type="checkbox" value="{{$module->id}}"  {{ old('module_id') && in_array($module->id, old('module_id')) ? ' checked' : '' }}  name="module_id[]" id="module_id" > {{$module->name}}
+                                                <input class="form-check-input" type="checkbox" value="{{$area->id}}"  {{ old('area_id') && in_array($area->id, old('area_id')) ? ' checked' : '' }}  name="area_id[]" id="area_id" > {{$area->name}}
                                                 <span class="form-check-sign">
                                                     <span class="check"></span>
                                                 </span>
                                             </label>
                                         </div>
                                         @endforeach
-                                        @include('alerts.feedback', ['field' => 'module_id'])
+                                        @include('alerts.feedback', ['field' => 'area_id'])
                                     </div>
                                 </div>
 

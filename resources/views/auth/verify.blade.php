@@ -11,7 +11,7 @@
   <div class="row justify-content-center">
       <div class="col-lg-7 col-md-8">
           <div class="card card-login card-hidden mb-3">
-            <div class="card-header card-header-rose text-center">
+            <div class="card-header card-header-success text-center">
               <p class="card-title"><strong>{{ __('Verifique correo') }}</strong></p>
             </div>
             <div class="card-body">

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Config;
 
+use App\Model\Config\Area;
 use App\Model\Config\Module;
 use App\Role;
 use App\User;
@@ -23,7 +24,7 @@ class AdminController extends Controller
      * Display a listing of the admins.
      *
      * @param User $model
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\View\View
      * @throws \Illuminate\Auth\Access\AuthorizationException
      */
     public function index(User $model)
@@ -38,21 +39,21 @@ class AdminController extends Controller
      *
      * @param Role $role
      * @param DocumentType $documentTypes
-     * @param Module $module
+     * @param Area $areas
      * @param City $cities
      * @param Member $members
      * @param Gender $genders
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\View\View
      * @throws \Illuminate\Auth\Access\AuthorizationException
      */
-    public function create(Role $role, DocumentType $documentTypes, Module $module, City $cities, Member $members, Gender $genders)
+    public function create(Role $role, DocumentType $documentTypes, Area $areas, City $cities, Member $members, Gender $genders)
     {
         $this->authorize('manageAdmins', User::class);
 
         return view('config.admin.create', [
             'roles' => $role->list(['id', 'name']),
             'documentTypes' => $documentTypes->get(['id', 'type']),
-            'modules' => $module->active(),
+            'areas' => $areas->get(['id', 'name']),
             'cities' => $cities->orderBy('name')->get(),
             'members' => $members->get(['id', 'name']),
             'genders' => $genders->get(['id', 'type'])
@@ -83,7 +84,7 @@ class AdminController extends Controller
         $user->member_id = $request->member_id;
         $user->save();
 
-        $user->modules()->sync($request->get('module_id'));
+        $user->areas()->sync($request->get('area_id'));
 
         return redirect()->route('admin.index')->withStatus(__('administrador creado con éxito.'));
     }
@@ -94,14 +95,14 @@ class AdminController extends Controller
      * @param User $admin
      * @param Role $role
      * @param DocumentType $documentTypes
-     * @param Module $module
+     * @param Area $areas
      * @param City $cities
      * @param Member $members
      * @param Gender $genders
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\View\View
      * @throws \Illuminate\Auth\Access\AuthorizationException
      */
-    public function edit(User $admin, Role $role, DocumentType $documentTypes,  Module $module, City $cities, Member $members, Gender $genders)
+    public function edit(User $admin, Role $role, DocumentType $documentTypes,  Area $areas, City $cities, Member $members, Gender $genders)
     {
         $this->authorize('manageAdmins', User::class);
 
@@ -109,7 +110,7 @@ class AdminController extends Controller
             'user' => $admin->load('role')->load('modules'),
             'roles' => $role->list(['id', 'name']),
             'documentTypes' => $documentTypes->get(['id', 'type']),
-            'modules' => $module->active(),
+            'areas' => $areas->get(['id', 'name']),
             'cities' => $cities->orderBy('name')->get(),
             'members' => $members->get(['id', 'name']),
             'genders' => $genders->get(['id', 'type'])
@@ -141,7 +142,7 @@ class AdminController extends Controller
         $admin->document = $request->document;
         $admin->save();
 
-        $admin->modules()->sync($request->get('module_id'));
+        $admin->areas()->sync($request->get('area_id'));
 
         return redirect()->route('admin.index')->withStatus(__('administrador actualizado con éxito.'));
     }

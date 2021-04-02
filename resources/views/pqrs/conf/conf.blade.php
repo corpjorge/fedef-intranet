@@ -7,7 +7,7 @@
             <div class="col-md-3">
 
                     <div class="card ">
-                        <div class="card-header card-header-rose card-header-icon">
+                        <div class="card-header card-header-success card-header-icon">
                             <div class="card-icon">
                                 <i class="material-icons">web</i>
                             </div>
@@ -28,7 +28,7 @@
                         @csrf
                         @method('put')
                         <div class="card ">
-                            <div class="card-header card-header-rose card-header-icon">
+                            <div class="card-header card-header-success card-header-icon">
                                 <div class="card-icon">
                                     <i class="material-icons">miscellaneous_services</i>
                                 </div>
