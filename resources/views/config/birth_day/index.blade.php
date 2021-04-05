@@ -20,13 +20,14 @@
             <div class="section text-center">
                 <div class="card card-blog">
                     <div class="card-header card-header-image">
-                        <video width="100%" autoplay muted loop>
-                            <source src="{{ asset('coopfon/img/cumple/'.$gender.'.mp4') }}" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                        <img src="{{ asset('coopfon/img/fedef/cumple.jpg') }}">
+{{--                        <video width="100%" autoplay muted loop>--}}
+{{--                            <source src="{{ asset('coopfon/img/cumple/'.$gender.'.mp4') }}" type="video/mp4">--}}
+{{--                            Your browser does not support the video tag.--}}
+{{--                        </video>--}}
 
                          <div class="card-title">
-                            Felicidades: {{ $user->full_name }}
+{{--                            Felicidades: {{ $user->full_name }}--}}
                         </div>
                     </div>
                     <div class="card-body">
