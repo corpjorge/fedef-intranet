@@ -7,7 +7,7 @@
 ])
 
 @section('content')
-    <div class="page-header header-filter" data-parallax="true" style="background-image: url({{ asset('coopfon/img/background/'.rand(1, 5).'.jpg') }})">
+    <div class="page-header header-filter" data-parallax="true" style="background-image: url({{ asset('coopfon/img/fedef/'.rand(1, 5).'.jpg') }})">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -57,14 +57,14 @@
                                     <a href="{{ asset('coopfon/img/fedef/evento.jpg') }}"><span style="background-color: #f44336;" class="badge badge-pill">Inscripciones cerradas</span></a>
                                 </p>
                                 <p class="card-description">
-                                    Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses.
+                                    Este es el segundo ciclo paseo que realizaremos están todos cordialmente invitados el día domingo 28 de Marzo hacia Bojacá, tomaremos un descanso en las piedras de chivo negro, allí podremos tener un rato de alimentación y descanso, llevar refrigerio saludable.
                                     <a href="{{ asset('coopfon/img/fedef/evento.jpg') }}"> Ver mas</a>
                                 </p>
                                 <p class="author">
 
                                     <a href="">
-                                        <b>Salgamos de la rutina</b>
-                                    </a> • Jul 9, 2020 • 2 min
+                                        <b>Parque del reloj Madrid Cund</b>
+                                    </a> • Hora: 7:30 a.m.
                                 </p>
                             </div>
                         </div>
@@ -86,14 +86,14 @@
                                     <a href="{{ asset('coopfon/img/fedef/evento.jpg') }}"><span style="background-color: #6c757d;" class="badge badge-pill">Inscripciones abiertas</span></a>
                                 </p>
                                 <p class="card-description">
-                                    This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here.
+                                    Este es el segundo ciclo paseo que realizaremos están todos cordialmente invitados el día domingo 28 de Marzo hacia Bojacá, tomaremos un descanso en las piedras de chivo negro, allí podremos tener un rato de alimentación y descanso, llevar refrigerio saludable.
                                     <a href="{{ asset('coopfon/img/fedef/evento.jpg') }}"> Ver mas </a>
                                 </p>
                                 <p class="author">
 
                                     <a href="{{ asset('coopfon/img/fedef/evento.jpg') }}">
-                                        <b>Salgamos de la rutina</b>
-                                    </a> • Jul 9, 2020 • 5 min
+                                        <b>Parque del reloj Madrid Cund</b>
+                                    </a> • Hora: 7:30 a.m.
                                 </p>
                             </div>
                         </div>
@@ -115,13 +115,13 @@
                                     <a href="{{ asset('coopfon/img/fedef/evento.jpg') }}"><span style="background-color: #6c757d;" class="badge badge-pill">Inscripciones abiertas</span></a>
                                 </p>
                                 <p class="card-description">
-                                    Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is meh.
+                                    Este es el segundo ciclo paseo que realizaremos están todos cordialmente invitados el día domingo 28 de Marzo hacia Bojacá, tomaremos un descanso en las piedras de chivo negro, allí podremos tener un rato de alimentación y descanso, llevar refrigerio saludable.
                                     <a href="{{ asset('coopfon/img/fedef/evento.jpg') }}"> Ver mas </a>
                                 </p>
                                 <p class="author">
                                     <a href="{{ asset('coopfon/img/fedef/evento.jpg') }}">
-                                        <b>Salgamos de la rutina</b>
-                                    </a> • Jul 9, 2020 • 5 min
+                                        <b>Parque del reloj Madrid Cund</b>
+                                    </a> • Hora: 7:30 a.m.
                                 </p>
                             </div>
                         </div>

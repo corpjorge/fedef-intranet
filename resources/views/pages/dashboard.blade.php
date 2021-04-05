@@ -115,133 +115,6 @@
       </div>
 
 
-
-
-
-
-      <h3>Clasificados recientes</h3>
-      <br>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card card-product">
-            <div class="card-header card-header-image" data-header-animation="true">
-              <a href="#">
-                <img class="img" src="{{ asset('coopfon')}}/img/card-2.jpg">
-              </a>
-            </div>
-            <div class="card-body">
-              <div class="card-actions text-center">
-                <button type="button" class="btn btn-danger btn-link fix-broken-card">
-                  <i class="material-icons">build</i> Fix Header!
-                </button>
-                <button type="button" class="btn btn-default btn-link" rel="tooltip" data-placement="bottom" title="View">
-                  <i class="material-icons">art_track</i>
-                </button>
-                <button type="button" class="btn btn-success btn-link" rel="tooltip" data-placement="bottom" title="Edit">
-                  <i class="material-icons">edit</i>
-                </button>
-                <button type="button" class="btn btn-danger btn-link" rel="tooltip" data-placement="bottom" title="Remove">
-                  <i class="material-icons">close</i>
-                </button>
-              </div>
-              <h4 class="card-title">
-                <a href="#">Aparta estudio</a>
-              </h4>
-              <div class="card-description">
-                The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to "Naviglio" where you can enjoy the main night life in Barcelona.
-              </div>
-            </div>
-            <div class="card-footer">
-              <div class="price">
-                <h4>$899/night</h4>
-              </div>
-              <div class="stats">
-                <p class="card-category"><i class="material-icons">place</i> Barcelona, Spain</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-product">
-            <div class="card-header card-header-image" data-header-animation="true">
-              <a href="#">
-                <img class="img" src="{{ asset('coopfon')}}/img/card-3.jpg">
-              </a>
-            </div>
-            <div class="card-body">
-              <div class="card-actions text-center">
-                <button type="button" class="btn btn-danger btn-link fix-broken-card">
-                  <i class="material-icons">build</i> Fix Header!
-                </button>
-                <button type="button" class="btn btn-default btn-link" rel="tooltip" data-placement="bottom" title="View">
-                  <i class="material-icons">art_track</i>
-                </button>
-                <button type="button" class="btn btn-success btn-link" rel="tooltip" data-placement="bottom" title="Edit">
-                  <i class="material-icons">edit</i>
-                </button>
-                <button type="button" class="btn btn-danger btn-link" rel="tooltip" data-placement="bottom" title="Remove">
-                  <i class="material-icons">close</i>
-                </button>
-              </div>
-              <h4 class="card-title">
-                <a href="#">Oficina estudio</a>
-              </h4>
-              <div class="card-description">
-                The place is close to Metro Station and bus stop just 2 min by walk and near to "Naviglio" where you can enjoy the night life in London, UK.
-              </div>
-            </div>
-            <div class="card-footer">
-              <div class="price">
-                <h4>$1.119/night</h4>
-              </div>
-              <div class="stats">
-                <p class="card-category"><i class="material-icons">place</i> London, UK</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-product">
-            <div class="card-header card-header-image" data-header-animation="true">
-              <a href="#">
-                <img class="img" src="{{ asset('coopfon')}}/img/card-1.jpg">
-              </a>
-            </div>
-            <div class="card-body">
-              <div class="card-actions text-center">
-                <button type="button" class="btn btn-danger btn-link fix-broken-card">
-                  <i class="material-icons">build</i> Fix Header!
-                </button>
-                <button type="button" class="btn btn-default btn-link" rel="tooltip" data-placement="bottom" title="View">
-                  <i class="material-icons">art_track</i>
-                </button>
-                <button type="button" class="btn btn-success btn-link" rel="tooltip" data-placement="bottom" title="Edit">
-                  <i class="material-icons">edit</i>
-                </button>
-                <button type="button" class="btn btn-danger btn-link" rel="tooltip" data-placement="bottom" title="Remove">
-                  <i class="material-icons">close</i>
-                </button>
-              </div>
-              <h4 class="card-title">
-                <a href="#">Castillo a la venta</a>
-              </h4>
-              <div class="card-description">
-                The place is close to Metro Station and bus stop just 2 min by walk and near to "Naviglio" where you can enjoy the main night life in Milan.
-              </div>
-            </div>
-            <div class="card-footer">
-              <div class="price">
-                <h4>$459/night</h4>
-              </div>
-              <div class="stats">
-                <p class="card-category"><i class="material-icons">place</i> Milan, Italy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
         <div class="row">
         <div class="cards">
             <div class="container">
@@ -257,56 +130,56 @@
 
         <div class="row">
             <div class="col-md-4">
-                <div class="card card-background" style="background-image: url('coopfon/img/eventos/escultura.jpg')">
+                <div class="card card-background" style="background-image: url('coopfon/img/fedef/evento.jpg')">
                     <div class="card-body">
                         <h6 class="card-category text-info">Hoy</h6>
                         <a href="#">
-                            <h3 class="card-title">Taller de escultura</h3>
+                            <h3 class="card-title">Salgamos de la rutina</h3>
                         </a>
                         <p class="card-description">
-                            Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                            Este es el segundo ciclo paseo que realizaremos están todos cordialmente invitados el día domingo 28 de Marzo hacia Bojacá, tomaremos un descanso en las piedras de chivo negro, allí podremos tener un rato de alimentación y descanso, llevar refrigerio saludable
                         </p>
                         <a href="#" class="btn btn-white btn-link">
                             <i class="material-icons">subject</i> Inscribirse
                         </a>
                         <a href="#" class="btn btn-white btn-link">
-                            <i class="material-icons">watch_later</i> 9:30
+                            <i class="material-icons">watch_later</i> 7:30 a.m
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card card-background" style="background-image: url('coopfon/img/eventos/moto.jpg')">
+                <div class="card card-background" style="background-image: url('coopfon/img/fedef/evento.jpg')">
                     <div class="card-body">
                         <h6 class="card-category text-info">Mañana</h6>
                         <a href="#">
-                            <h3 class="card-title">Tour Olaya</h3>
+                            <h3 class="card-title">Salgamos de la rutina</h3>
                         </a>
                         <p class="card-description">
-                            Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                            Este es el segundo ciclo paseo que realizaremos están todos cordialmente invitados el día domingo 28 de Marzo hacia Bojacá, tomaremos un descanso en las piedras de chivo negro, allí podremos tener un rato de alimentación y descanso, llevar refrigerio saludable
                         </p>
                         <a href="#" class="btn btn-white btn-link">
                             <i class="material-icons">subject</i> Inscribirse
                         </a>
                         <a href="#" class="btn btn-white btn-link">
-                            <i class="material-icons">watch_later</i> 5:30 PM
+                            <i class="material-icons">watch_later</i> 7:30 a.m
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card card-background" style="background-image: url('coopfon/img/eventos/park.jpg')">
+                <div class="card card-background" style="background-image: url('coopfon/img/fedef/evento.jpg')">
                     <div class="card-body">
                         <h6 class="card-category text-info">Próximamente</h6>
                         <a href="#">
-                            <h3 class="card-title">Tayrona</h3>
+                            <h3 class="card-title">Salgamos de la rutina</h3>
                         </a>
                         <p class="card-description">
-                            Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                            Este es el segundo ciclo paseo que realizaremos están todos cordialmente invitados el día domingo 28 de Marzo hacia Bojacá, tomaremos un descanso en las piedras de chivo negro, allí podremos tener un rato de alimentación y descanso, llevar refrigerio saludable
                         </p>
 
                         <a href="#" class="btn btn-white btn-link">
-                            <i class="material-icons">watch_later</i> Ya casi
+                            <i class="material-icons">watch_later</i> 7:30 a.m
                         </a>
                     </div>
                 </div>
