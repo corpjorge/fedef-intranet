@@ -34,7 +34,7 @@
                         <div id="sound"></div>
                         <h6 class="card-category text-info">Recuerda</h6>
                         <p class="card-description">
-                            CoopFon Te Desea en este cumpleaños que disfrutes cada momento al máximo, ahora y siempre.
+                            Fedef Te Desea en este cumpleaños que disfrutes cada momento al máximo, ahora y siempre.
                         </p>
                     </div>
                 </div>
@@ -80,6 +80,6 @@
     <script>
         var mp3Source = '<source src="/coopfon/img/cumple/{{$gender}}.mp3" type="audio/mpeg">';
         var embedSource = '<embed hidden="true" autostart="true" loop="false" src="/coopfon/img/cumple/M.mp3">';
-        document.getElementById("sound").innerHTML='<audio autoplay="autoplay">' + mp3Source +  embedSource + '</audio>';
+        // document.getElementById("sound").innerHTML='<audio autoplay="autoplay">' + mp3Source +  embedSource + '</audio>';
     </script>
 @endpush
