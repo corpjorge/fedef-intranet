@@ -87,5 +87,9 @@ Route::group(['middleware' => 'auth'], function () {
 
     //Docuements
     Route::resource('document', 'DocumentController', ['except' => ['show']]);
+    Route::get('comunicados', 'ComunicadoController@index')->name('comunicado.index');
+    Route::get('comunicados/create', 'ComunicadoController@create')->name('comunicado.create');
+    Route::post('comunicados', 'ComunicadoController@store')->name('comunicado.store');
+    Route::delete('comunicados/{id}', 'ComunicadoController@delete')->name('comunicado.delete');
 
 });

@@ -66,6 +66,24 @@
             </a>
         </li>
 
+        @can('manageAdmins', App\User::class)
+            <li class="nav-item{{ $activePage == 'admin-management' ? ' active' : '' }}">
+                <a class="nav-link" href="{{ route('admin.index') }}">
+                    <i class="material-icons">admin_panel_settings</i>
+                    <p>{{ __('Administradores') }}</p>
+                </a>
+            </li>
+        @endcan
+
+        @can('manageAdmins', App\User::class)
+            <li class="nav-item{{ $activePage == 'comunicado' ? ' active' : '' }}">
+                <a class="nav-link" href="{{ route('comunicado.index') }}">
+                    <i class="material-icons">thumb_up_off_alt</i>
+                    <p>{{ __('Comunicados') }}</p>
+                </a>
+            </li>
+        @endcan
+
 
         {{--Menu Modulos
         @foreach($menuModules as $module)

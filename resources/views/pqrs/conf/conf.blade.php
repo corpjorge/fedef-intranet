@@ -3,23 +3,20 @@
 @section('content')
     <div class="content">
         <div class="container-fluid">
-
             <div class="col-md-3">
-
-                    <div class="card ">
-                        <div class="card-header card-header-success card-header-icon">
-                            <div class="card-icon">
-                                <i class="material-icons">web</i>
-                            </div>
-                            <h5 class="card-title">{{ __('Formulario publico ') }}</h5>
+                <div class="card ">
+                    <div class="card-header card-header-success card-header-icon">
+                        <div class="card-icon">
+                            <i class="material-icons">web</i>
                         </div>
-                        <div class="card-body text-center">
-                            <a class="text-center" href="{{ route('pqrs_external.create') }}"  target="_blank">
-                                {{ route('pqrs_external.create') }}
-                            </a>
-                        </div>
+                        <h5 class="card-title">{{ __('Formulario publico ') }}</h5>
                     </div>
-
+                    <div class="card-body text-center">
+                        <a class="text-center" href="{{ route('pqrs_external.create') }}"  target="_blank">
+                            {{ route('pqrs_external.create') }}
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <div class="row">
