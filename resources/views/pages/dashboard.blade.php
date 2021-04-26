@@ -4,16 +4,21 @@
 <div class="content">
     <div class="container-fluid">
         <div class="row justify-content-center">
+            @foreach($comunicados as $comunicado)
             <div class="col-md-4">
                 <div class="card card-plain card-blog">
+                    <a href="{{  $comunicado->url ? $comunicado->url : ''  }}" target="_blank">
                     <div class="card-header card-header-image">
-                        <a href="#">
-                            <img class="img img-raised" src="https://fedef-intranet.test/coopfon/img/fedef/evento.jpg">
-                        </a>
+
+                            <img class="img img-raised" src="storage/img/comunicados/{{$comunicado->ruta}}">
+
                         <div class="colored-shadow" ></div>
                     </div>
+                    </a>
                 </div>
             </div>
+            @endforeach
+
         </div>
     </div>
 </div>

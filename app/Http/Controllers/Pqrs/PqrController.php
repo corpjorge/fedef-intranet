@@ -70,8 +70,6 @@ class PqrController extends Controller
      */
     public function reply(PqPqr $pqr, PqConfig $pqConf)
     {
-        $this->authorize('reply', $pqr );
-
         return view('pqrs.pqrs.reply', [
             'pqrs' => $pqr->pqrActive()->where('user_id','!=', auth()->user()->id)->get(),
             'limit_date' => $pqConf->conf()->limit_date

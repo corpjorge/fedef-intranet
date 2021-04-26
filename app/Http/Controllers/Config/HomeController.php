@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Config;
 
+use App\Comunicado;
 use App\Http\Controllers\Controller;
 use App\Model\Config\ExternalSystem;
 
@@ -25,6 +26,6 @@ class HomeController extends Controller
     public function index()
     {
         $externalSystems = ExternalSystem::SystemActive();
-        return view('pages.dashboard', ['externalSystems' => $externalSystems]);
+        return view('pages.dashboard', ['externalSystems' => $externalSystems, 'comunicados' => Comunicado::all()]);
     }
 }

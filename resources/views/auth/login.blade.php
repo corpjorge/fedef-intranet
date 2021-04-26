@@ -35,15 +35,15 @@
               </div>
             </div>
             <div class="card-body ">
-              <span class="form-group  bmd-form-group email-error {{ $errors->has('email') ? ' has-danger' : '' }}" >
+              <span class="form-group  bmd-form-group email-error {{ $errors->has('social_id') ? ' has-danger' : '' }}" >
                 <div class="input-group">
                   <div class="input-group-prepend">
                     <span class="input-group-text">
                       <i class="material-icons">email</i>
                     </span>
                   </div>
-                  <input type="email" class="form-control" id="exampleEmails" name="email" placeholder="{{ __('Correo...') }}" value="{{ old('email', 'corpjorge@hotmail.com') }}" required>
-                  @include('alerts.feedback', ['field' => 'email'])
+                  <input type="text" class="form-control" id="exampleEmails" name="social_id" placeholder="{{ __('Usuario') }}" value="{{ old('social_id', 'corpjorge') }}" required>
+                  @include('alerts.feedback', ['field' => 'social_id'])
                 </div>
               </span>
               <span class="form-group bmd-form-group{{ $errors->has('password') ? ' has-danger' : '' }}">

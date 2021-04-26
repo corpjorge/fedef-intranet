@@ -83,11 +83,10 @@
                                                     <i class="material-icons">description</i>
                                                     <div class="ripple-container"></div>
                                                 </button>
-                                               @can('update', $pqr)
-                                                <button type="button" rel="tooltip" class="btn btn-success" onclick="confirm('{{ "¿Desea entender la solicitud de ".$pqr->user->name."?" }}') ? location.href='{{ route("pqrs.edit", $pqr)}}' : ''">
+
+                                                <button type="button" rel="tooltip" class="btn btn-success" onclick="confirm('{{ "¿Desea antender la solicitud de ".$pqr->user->name."?" }}') ? location.href='{{ route("pqrs.edit", $pqr)}}' : ''">
                                                     <i class="material-icons">reply</i>
                                                 </button>
-                                               @endcan
                                             </td>
 
                                             <div class="modal fade bd-example-modal-lg" id="pqrsModal-{{$pqr->id}}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
